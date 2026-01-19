@@ -100,4 +100,30 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '500',
   },
+  swipeDelete: {
+  backgroundColor: '#ff3b30',
+  justifyContent: 'center',
+  alignItems: 'flex-end',
+  paddingHorizontal: 20,
+  marginVertical: 9,
+  borderRadius: 2,
+},
+
+swipeDeleteText: {
+  color: '#fff',
+  fontWeight: 'bold',
+},
+swipeable: {
+
+    backgroundColor: 'papayawhip',
+    
+  },
+  rightAction:{
+    backgroundColor:'#3a5c18',
+    width:100,
+    flexDirection:'row',
+    alignItems:'center',
+    justifyContent:'space-evenly'
+  }
+
 });
